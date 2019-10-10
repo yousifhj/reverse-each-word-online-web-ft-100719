@@ -1,3 +1,7 @@
 def reverse_each_method(string)
-  string.reverse 
+  split_string = string.split("")
+  reversed = []
+  string.size.times { reversed << split_string.pop }
+  reversed.join
+end
 end 
