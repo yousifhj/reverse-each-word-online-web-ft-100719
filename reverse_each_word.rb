@@ -5,7 +5,6 @@ def reverse_each_method(string)
    return_array << string.reverse
  end 
 end 
-
  return_array.join(" ")
 end
 
